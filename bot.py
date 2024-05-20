@@ -9,8 +9,8 @@ from cat import get_cat_image
 from wiki import malumot
 
 
-TOKEN = "7083075969:AAGXj8oUQ_PVxwONVZ47chbiA4xlg-bYtgE"
-ADMIN = 1245143580
+TOKEN = "7194094142:AAEgbzG0FZoeMTo_x3RIBgDWpA9Hd3PvW5U"
+ADMIN = 6052451534
 dp = Dispatcher()
 
 
@@ -37,11 +37,11 @@ async def wiki_malumot(message:Message):
 
 @dp.startup()
 async def bot_start():
-    await bot.send_message(1245143580,"Botimiz ishga tushdi")
+    await bot.send_message(6052451534,"Botimiz ishga tushdi")
 
 @dp.shutdown()
 async def bot_stop():
-    await bot.send_message(1245143580,"Xayr")
+    await bot.send_message(6052451534,"Xayr")
 
 
 async def main():
